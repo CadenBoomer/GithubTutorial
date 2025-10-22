@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Careers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+        <label for="fullname">Full Name</label>
+        <input type="text" name="full_name" pattern=".{8,}" placeholder="Please put your full name" required>
+
+
+        <br><br>
+
+
+        <label for="experience">Experience</label>
+        <input type="number" name="experience" placeholder="Experience" required>
+        <br><br>
+
+
+        <label for="vacancy">Vacancy</label>
+        <select value="vacancy" required>
+            <option value="">Please select a Vacancy</option>
+            <option value="Android Developer">Android Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Consultant">Consultant</option>
+            <option value="R&D">Research and Development</option>
+        </select>
+
+
+        <br><br>
+
+
+        <label for="jobtype">Job Type</label>
+        <select value="jobtype" required>
+            <option value="">Please select a job type</option>
+            <option value="Android Developer">Full Time</option>
+            <option value="Full Stack Developer">Part time</option>
+            <option value="Consultant">Freelancer</option>
+            <option value="R&D">Internship</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Apply">
+    </form>
+
+</body>
+
+</html>
